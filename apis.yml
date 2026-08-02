@@ -1,7 +1,22 @@
 aid: tattvam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tattvam.png
 name: Tattvam
-description: Tattvam is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tattvam AI (Tattvam Labs) is an early-stage, Seedcamp-backed deep-tech startup building
+  the intelligence layer of chip design, applying artificial intelligence to semiconductor and electronic
+  design automation (EDA) workflows. As of this profile the company operates a single marketing landing
+  page at tattvamlabs.ai (a Vercel-hosted React single-page app) with no public API, developer documentation,
+  or SDKs; it is in a pre-product, team-building stage. Contact hello@tattvamlabs.ai.
 url: https://raw.githubusercontent.com/api-evangelist/tattvam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Semiconductors
+- Chip Design
+- EDA
+- Artificial Intelligence
+- Deep Tech
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tattvam-domain-security.yml
 - type: Website
-  url: http://tattvamlabs.ai
+  url: https://www.tattvamlabs.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tattvam-ai/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
