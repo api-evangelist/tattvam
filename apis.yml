@@ -45,7 +45,6 @@ tags:
 - EDA
 - Artificial Intelligence
 - Deep Tech
-- Startups
 tags_raw:
 - Company
 - Semiconductors
@@ -53,7 +52,6 @@ tags_raw:
 - EDA
 - Artificial Intelligence
 - Deep Tech
-- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -72,3 +70,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
